@@ -7,7 +7,10 @@ Queens.py was the only one here at first.
 
 I plan to continue writing code using Thonny as my professor has semi-required.
 Goals are to:
+
     1. Write new programs for HW 5 & 6.
+    
     2. Go back to complete 8-tiles game from HW 3.
+    
     3. Move all earlier classwork here, organize and refactor.
 
