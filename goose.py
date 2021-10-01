@@ -47,7 +47,7 @@ while len(start) > 0 :
     if "farmer" in start :
         # Test if taking each item would leave a legal arrangement 
         for each in start :
-            if each is not "farmer" :
+            if each != "farmer" :
                 test_list = start.copy()
                 test_list.remove(each)
                 if check(test_list) :
@@ -65,7 +65,7 @@ while len(start) > 0 :
         else :
             #  Repeat until legal arrangement to leave behind is found
             while not check(test_list) :                
-                if test_list[0] is not "farmer" :
+                if test_list[0] != "farmer" :
                     return_with = test_list.pop(0)
                     if check(test_list) : move (return_with)
                     else : test_list.append(return_with)
